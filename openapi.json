@@ -6,10 +6,10 @@
         "version": "1.0"
     },
     "servers": [{
-        "url": "https://dih-azure-apim-wfetnsablojjo.azure-api.net/dih-azure-function-wfetnsablojjo"
+        "url": "https://www.your-azure-function-url.azurewebsites.net"
     }],
     "paths": {
-        "/items": {
+        "/api/items": {
             "get": {
                 "summary": "GetItem",
                 "operationId": "get-getitem",
